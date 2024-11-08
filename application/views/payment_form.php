@@ -47,7 +47,8 @@
         /* Navbar styling */
         .navbar_container {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: space-between; /* Added to align DemoPayment and nav-role */
             padding: 15px 30px;
             background-color: #f5f5f5;
         }
@@ -62,7 +63,7 @@
         }
         .navbar_container .navbar-buttons {
             display: flex;
-            flex-direction: column;
+            align-items: center;
             gap: 10px;
         }
         .navbar_container .navbar-buttons button {
@@ -81,7 +82,6 @@
             color: #004085;
             padding: 8px 15px;
             border-radius: 5px;
-            margin-top: 10px;
         }
 
         /* Tabs and content styling */
@@ -172,8 +172,8 @@
         <div class="navbar-buttons">
             <button class="btn btn-light">Refresh Page</button>
             <button class="btn btn-light">Go Back</button>
-            <div class="nav-role">Teller: Right Mazolo - KMALIMBA</div>
         </div>
+        <div class="nav-role">Teller: Right Mazolo - KMALIMBA</div>
     </div>
 
     <!-- Tabs -->
