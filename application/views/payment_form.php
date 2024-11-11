@@ -16,7 +16,7 @@
 
         /* Header styling */
         .header {
-            background-color: #e60000;
+            background-color: #FF0018;
             color: white;
             padding: 15px 30px;
             display: flex;
@@ -27,16 +27,19 @@
             height: 40px;
         }
         .header .right-section {
+            background-color: white;
+            padding: 5px 15px;
             display: flex;
             align-items: center;
             gap: 15px;
+            border-radius: 5px;
         }
         .header .right-section span {
-            color: blue;
+            color: #6A9CC9;
             font-size: 14px;
         }
         .header .right-section button {
-            background-color: #007bff;
+            background-color: #0000CC;
             border: none;
             color: white;
             font-weight: bold;
@@ -48,22 +51,20 @@
         .navbar_container {
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Added to align DemoPayment and nav-role */
             padding: 15px 30px;
             background-color: #f5f5f5;
         }
         .navbar_container .navbar {
             font-size: 20px;
-            background-color: #28a745;
+            background-color: #008000;
             font-weight: bold;
             color: white;
             padding: 10px 20px;
-            border-radius: 5px;
             margin-right: 30px;
         }
         .navbar_container .navbar-buttons {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             gap: 10px;
         }
         .navbar_container .navbar-buttons button {
@@ -73,15 +74,16 @@
             padding: 8px 15px;
             font-weight: bold;
             border-radius: 5px;
-            text-align: left;
+            width: 150px;
         }
         .navbar_container .nav-role {
             font-size: 16px;
             font-weight: bold;
-            background-color: #cce5ff;
+            background-color: #5BC0DE;
             color: #004085;
             padding: 8px 15px;
             border-radius: 5px;
+            margin-left: auto;
         }
 
         /* Tabs and content styling */
@@ -103,14 +105,14 @@
         .form-section {
             background-color: #ffffff;
             padding: 20px;
-            border: 1px solid #007bff;
+            border: 1px solid #337AB7;
             border-radius: 5px;
             width: 100%;
             max-width: 400px;
             margin-top: 20px;
         }
         .form-section h4 {
-            background-color: #3982b8; 
+            background-color: #337AB7; 
             color: #ffffff; 
             font-weight: bold;
             padding: 10px;
@@ -134,7 +136,7 @@
             justify-content: flex-start; 
         }
         .btn-blue {
-            background-color: #007bff;
+            background-color: #0000CC;
             border: none;
             color: white;
             font-weight: bold;
@@ -143,7 +145,7 @@
             border-radius: 5px;
         }
         .btn-red {
-            background-color: #dc3545;
+            background-color: #FF0018;
             border: none;
             color: white;
             font-weight: bold;
