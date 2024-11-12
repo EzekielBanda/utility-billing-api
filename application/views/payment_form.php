@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vas Portal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* General styling */
         body {
@@ -18,10 +20,11 @@
         .header {
             background-color: #FF0018;
             color: white;
-            padding: 15px 30px;
+            padding: 5px 30px;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
         }
         .header img {
             height: 40px;
@@ -32,26 +35,24 @@
             display: flex;
             align-items: center;
             gap: 15px;
-            border-radius: 5px;
+            
         }
         .header .right-section span {
-            color: #6A9CC9;
+            color: #337AB7;
             font-size: 14px;
         }
         .header .right-section button {
             background-color: #0000CC;
-            border: none;
             color: white;
             font-weight: bold;
             padding: 5px 10px;
-            border-radius: 4px;
         }
 
         /* Navbar styling */
         .navbar_container {
             display: flex;
-            align-items: center;
-            padding: 15px 30px;
+            align-items: flex-start;
+            padding: 0 30px;
             background-color: #f5f5f5;
         }
         .navbar_container .navbar {
@@ -59,31 +60,38 @@
             background-color: #008000;
             font-weight: bold;
             color: white;
-            padding: 10px 20px;
+            padding: 3px 7px;
             margin-right: 30px;
+            position: absolute;
+            top: 56px;
+            left: 0;
         }
         .navbar_container .navbar-buttons {
             display: flex;
             flex-direction: column;
             gap: 10px;
+            margin-left: 140px;
+            
         }
         .navbar_container .navbar-buttons button {
             background-color: #ffffff;
             border: 1px solid #ced4da;
             color: #333;
-            padding: 8px 15px;
+            padding: 3px 10px;
             font-weight: bold;
-            border-radius: 5px;
             width: 150px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
         .navbar_container .nav-role {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
             background-color: #5BC0DE;
-            color: #004085;
-            padding: 8px 15px;
-            border-radius: 5px;
+            color: #ffffff;
+            padding: 1px 15px;
             margin-left: auto;
+            margin-top: 3px;
         }
 
         /* Tabs and content styling */
@@ -161,10 +169,10 @@
     <div class="header">
         <img src="assets/logo.png" alt="NBS Bank">
         <div class="right-section">
-            <span>User Menu</span>
-            <span>helpdesk@nbs.mw</span>
-            <span>+265 999 96 70 02</span>
-            <button class="btn btn-primary">Logout</button>
+            <span> <i class="fa fa-cog" aria-hidden="true"></i> User Menu</span>
+            <span> <i class="fa fa-envelope" aria-hidden="true"></i> helpdesk@nbs.mw</span>
+            <span> <i class="fas fa-phone"></i> +265 999 96 70 02</span>
+            <button class="btn btn-primary"> <i class="fa fa-power-off" aria-hidden="true"></i> Logout</button>
         </div>
     </div>
 
@@ -172,10 +180,14 @@
     <div class="navbar_container">
         <div class="navbar">DemoPayment</div>
         <div class="navbar-buttons">
-            <button class="btn btn-light">Refresh Page</button>
-            <button class="btn btn-light">Go Back</button>
+            <button class="btn btn-light">
+                <i class="fas fa-sync-alt"></i> Refresh Page
+            </button>
+            <button class="btn btn-light">
+                <i class="fas fa-arrow-left"></i> Go Back
+            </button>
         </div>
-        <div class="nav-role">Teller: Right Mazolo - KMALIMBA</div>
+        <div class="nav-role"> <i class="fas fa-user"></i> Teller: Right Mazolo - KMALIMBA</div>
     </div>
 
     <!-- Tabs -->
@@ -197,7 +209,7 @@
                     <form action="your_action_url" method="POST">
                         <div class="form-group">
                             <label for="meter_number">Meter Number:</label>
-                            <input type="text" id="meter_number" name="meter_number" class="form-control" placeholder="Enter Account number">
+                            <input type="text" id="meter_number" name="meter_number" class="form-control" placeholder="Enter meter number">
                         </div>
                         <div class="form-group">
                             <label for="amount">Amount (MWK):</label>
