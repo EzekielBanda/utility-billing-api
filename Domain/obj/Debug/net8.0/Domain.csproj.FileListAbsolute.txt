@@ -1,0 +1,14 @@
+D:\Dotnet8\UtilityBiller\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Dotnet8\UtilityBiller\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\Dotnet8\UtilityBiller\Domain\bin\Debug\net8.0\Domain.dll
+D:\Dotnet8\UtilityBiller\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.dll
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Dotnet8\UtilityBiller\Domain\obj\Debug\net8.0\ref\Domain.dll

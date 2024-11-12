@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet8\\UtilityBiller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D33E501-3D14-4045-8402-F899ECB268AA}|Infrastructure\\Infrastructure.csproj|d:\\dotnet8\\utilitybiller\\infrastructure\\repository\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D33E501-3D14-4045-8402-F899ECB268AA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D870F-10F9-43E4-AB66-66E3B4BA54EE}|UtilityBillingApi\\UtilityBillingApi.csproj|d:\\dotnet8\\utilitybiller\\utilitybillingapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88D870F-10F9-43E4-AB66-66E3B4BA54EE}|UtilityBillingApi\\UtilityBillingApi.csproj|solutionrelative:utilitybillingapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D33E501-3D14-4045-8402-F899ECB268AA}|Infrastructure\\Infrastructure.csproj|d:\\dotnet8\\utilitybiller\\infrastructure\\repository\\meterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D33E501-3D14-4045-8402-F899ECB268AA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\meterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88D870F-10F9-43E4-AB66-66E3B4BA54EE}|UtilityBillingApi\\UtilityBillingApi.csproj|d:\\dotnet8\\utilitybiller\\utilitybillingapi\\controllers\\metercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88D870F-10F9-43E4-AB66-66E3B4BA54EE}|UtilityBillingApi\\UtilityBillingApi.csproj|solutionrelative:utilitybillingapi\\controllers\\metercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403A9156-4109-4729-B7BA-3977218B4262}|ApplicationService\\ApplicationService.csproj|d:\\dotnet8\\utilitybiller\\applicationservice\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{403A9156-4109-4729-B7BA-3977218B4262}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{403A9156-4109-4729-B7BA-3977218B4262}|ApplicationService\\ApplicationService.csproj|d:\\dotnet8\\utilitybiller\\applicationservice\\dtos\\paymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{403A9156-4109-4729-B7BA-3977218B4262}|ApplicationService\\ApplicationService.csproj|solutionrelative:applicationservice\\dtos\\paymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D1EA15-45B6-4521-A7A7-9C60CF0B24ED}|Domain\\Domain.csproj|d:\\dotnet8\\utilitybiller\\domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D1EA15-45B6-4521-A7A7-9C60CF0B24ED}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{922D8E79-8462-4243-83F3-17449F4F0E14}|DI\\DI.csproj|d:\\dotnet8\\utilitybiller\\di\\dependencyinj\\dependencyinj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{922D8E79-8462-4243-83F3-17449F4F0E14}|DI\\DI.csproj|solutionrelative:di\\dependencyinj\\dependencyinj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\Infrastructure\\Repository\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\PaymentService.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\Infrastructure\\Repository\\PaymentService.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:42:00.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\ApplicationService\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Services\\IPaymentService.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\ApplicationService\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "ApplicationService\\Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:35:42.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Payment.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:25:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\UtilityBillingApi\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "UtilityBillingApi\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\UtilityBillingApi\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "UtilityBillingApi\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwFQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:50:32.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeterService.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\Infrastructure\\Repository\\MeterService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\MeterService.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\Infrastructure\\Repository\\MeterService.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\MeterService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:29:43.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeterController.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\UtilityBillingApi\\Controllers\\MeterController.cs",
+              "RelativeDocumentMoniker": "UtilityBillingApi\\Controllers\\MeterController.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\UtilityBillingApi\\Controllers\\MeterController.cs",
+              "RelativeToolTip": "UtilityBillingApi\\Controllers\\MeterController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwGUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:38:04.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentResponseDto.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\ApplicationService\\Dtos\\PaymentResponseDto.cs",
+              "RelativeDocumentMoniker": "ApplicationService\\Dtos\\PaymentResponseDto.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\ApplicationService\\Dtos\\PaymentResponseDto.cs",
+              "RelativeToolTip": "ApplicationService\\Dtos\\PaymentResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:22:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInj.cs",
+              "DocumentMoniker": "D:\\Dotnet8\\UtilityBiller\\DI\\DependencyInj\\DependencyInj.cs",
+              "RelativeDocumentMoniker": "DI\\DependencyInj\\DependencyInj.cs",
+              "ToolTip": "D:\\Dotnet8\\UtilityBiller\\DI\\DependencyInj\\DependencyInj.cs",
+              "RelativeToolTip": "DI\\DependencyInj\\DependencyInj.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:59:18.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.MeterController",
+    "Method": "GetAllMeterDetails",
+    "RelativePath": "api/Meter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.MeterController",
+    "Method": "AddMeterDetails",
+    "RelativePath": "api/Meter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "meterDto",
+        "Type": "ApplicationService.Dtos.MeterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.MeterController",
+    "Method": "GetMeterDetailsById",
+    "RelativePath": "api/Meter/{meterNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "meterNumber",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.PaymentController",
+    "Method": "MakePayment",
+    "RelativePath": "api/Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentDto",
+        "Type": "ApplicationService.Dtos.PaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.PaymentController",
+    "Method": "GetTransactionByReference",
+    "RelativePath": "api/Payment/transaction/{transRef}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transRef",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UtilityBillingApi.Controllers.PaymentController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "api/Payment/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

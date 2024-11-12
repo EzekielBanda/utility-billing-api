@@ -1,0 +1,17 @@
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\ApplicationService.deps.json
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\ApplicationService.runtimeconfig.json
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\ApplicationService.dll
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\ApplicationService.pdb
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\Domain.dll
+D:\Dotnet8\UtilityBiller\ApplicationService\bin\Debug\net8.0\Domain.pdb
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.csproj.AssemblyReference.cache
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.AssemblyInfoInputs.cache
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.AssemblyInfo.cs
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.csproj.CoreCompileInputs.cache
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\Applicat.04A62F56.Up2Date
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.dll
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\refint\ApplicationService.dll
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.pdb
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ApplicationService.genruntimeconfig.cache
+D:\Dotnet8\UtilityBiller\ApplicationService\obj\Debug\net8.0\ref\ApplicationService.dll
