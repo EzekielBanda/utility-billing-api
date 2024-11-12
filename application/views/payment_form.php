@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,18 +24,17 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            
         }
         .header img {
             height: 40px;
         }
         .header .right-section {
-            background-color: white;
+            background-color: #ffffff;
             padding: 5px 15px;
             display: flex;
             align-items: center;
             gap: 15px;
-            
+            margin-top: -5px; /* Move up to align with the header */
         }
         .header .right-section span {
             color: #337AB7;
@@ -44,7 +43,6 @@
         .header .right-section button {
             background-color: #0000CC;
             color: white;
-            font-weight: bold;
             padding: 5px 10px;
         }
 
@@ -56,7 +54,7 @@
             background-color: #f5f5f5;
         }
         .navbar_container .navbar {
-            font-size: 20px;
+            font-size: 18px;
             background-color: #008000;
             font-weight: bold;
             color: white;
@@ -70,8 +68,7 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin-left: 140px;
-            
+            margin-left: 157px;
         }
         .navbar_container .navbar-buttons button {
             background-color: #ffffff;
@@ -83,6 +80,11 @@
             display: flex;
             align-items: center;
             gap: 5px;
+        }
+       
+        .navbar_container .navbar-buttons .btn-back {
+            background-color: #F0F0F0;
+            border-radius: 5px 5px 0 0;
         }
         .navbar_container .nav-role {
             font-size: 14px;
@@ -97,6 +99,8 @@
         /* Tabs and content styling */
         .content {
             padding: 20px 30px;
+            margin-left: 30px;
+            margin-top: 40px;
         }
         .nav-tabs .nav-item .nav-link {
             color: #333;
@@ -105,8 +109,7 @@
         }
         .nav-tabs .nav-item .nav-link.active {
             color: #ffffff;
-            background-color: #3982b8;
-            border-radius: 5px 5px 0 0;
+            background-color: #275D8C;
         }
 
         /* Form styling */
@@ -117,7 +120,8 @@
             border-radius: 5px;
             width: 100%;
             max-width: 400px;
-            margin-top: 20px;
+            margin-top: 25px;
+            margin-left: 1px; 
         }
         .form-section h4 {
             background-color: #337AB7; 
@@ -180,10 +184,10 @@
     <div class="navbar_container">
         <div class="navbar">DemoPayment</div>
         <div class="navbar-buttons">
-            <button class="btn btn-light">
+            <button class="btn btn-light" onclick="location.reload()">
                 <i class="fas fa-sync-alt"></i> Refresh Page
             </button>
-            <button class="btn btn-light">
+            <button class="btn btn-light btn-back">
                 <i class="fas fa-arrow-left"></i> Go Back
             </button>
         </div>
