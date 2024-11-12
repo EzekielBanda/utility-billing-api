@@ -61,7 +61,7 @@
             padding: 3px 7px;
             margin-right: 30px;
             position: absolute;
-            top: 56px;
+            top: 51px;
             left: 0;
         }
         .navbar_container .navbar-buttons {
@@ -98,7 +98,7 @@
 
         /* Tabs and content styling */
         .content {
-            padding: 20px 30px;
+            padding: 20px 40px;
             margin-left: 30px;
             margin-top: 40px;
         }
