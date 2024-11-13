@@ -1,11 +1,10 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vas Portal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* General styling */
@@ -34,17 +33,30 @@
             display: flex;
             align-items: center;
             gap: 15px;
-            margin-top: -5px; /* Move up to align with the header */
+            margin-top: -5px;
         }
-        .header .right-section span {
-            color: #337AB7;
-            font-size: 14px;
-        }
+       
         .header .right-section button {
             background-color: #0000CC;
             color: white;
             padding: 5px 10px;
         }
+
+        .header .right-section span,
+        .header .right-section .dropdown-toggle {
+            color: #337AB7;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Dropdown styling */
+        .dropdown-menu a {
+            color: #333;
+        }
+        .dropdown-menu a:hover {
+            background-color: #f0f0f0;
+        }
+
 
         /* Navbar styling */
         .navbar_container {
@@ -173,10 +185,20 @@
     <div class="header">
         <img src="assets/logo.png" alt="NBS Bank">
         <div class="right-section">
-            <span> <i class="fa fa-cog" aria-hidden="true"></i> User Menu</span>
-            <span> <i class="fa fa-envelope" aria-hidden="true"></i> helpdesk@nbs.mw</span>
-            <span> <i class="fas fa-phone"></i> +265 999 96 70 02</span>
-            <button class="btn btn-primary"> <i class="fa fa-power-off" aria-hidden="true"></i> Logout</button>
+            <span><i class="fa fa-cog" aria-hidden="true"></i></span>
+            <div class="dropdown">
+                <span class="dropdown-toggle" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    User Menu
+                </span>
+                <div class="dropdown-menu" aria-labelledby="userDropdown">
+                    <a class="dropdown-item" href="#">Lee - 1233</a>
+                    <a class="dropdown-item" href="#">Alex - 4567</a>
+                    <a class="dropdown-item" href="#">Sam - 7890</a>
+                </div>
+            </div>
+            <span><i class="fa fa-envelope" aria-hidden="true"></i> helpdesk@nbs.mw</span>
+            <span><i class="fas fa-phone"></i> +265 999 96 70 02</span>
+            <button class="btn btn-primary"><i class="fa fa-power-off" aria-hidden="true"></i> Logout</button>
         </div>
     </div>
 
@@ -191,7 +213,7 @@
                 <i class="fas fa-arrow-left"></i> Go Back
             </button>
         </div>
-        <div class="nav-role"> <i class="fas fa-user"></i> Teller: Right Mazolo - KMALIMBA</div>
+        <div class="nav-role"><i class="fas fa-user"></i> Teller: Right Mazolo - KMALIMBA</div>
     </div>
 
     <!-- Tabs -->
